@@ -7,6 +7,6 @@ public class Add{
 			sum+=count;
 		}
 		
-		System.out.println("��Ϊ"+sum);
+		System.out.println("ºÍÎª"+sum);
 	}
 }
