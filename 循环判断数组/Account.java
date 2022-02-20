@@ -6,19 +6,19 @@ public class Account{
 		System.out.println(money);
 		if(vip=="true"){
 			if(money>100 && money<200){
-				System.out.println("´ò8ÕÛ");
+				System.out.println("æ‰“8æŠ˜");
 			}
 			if(money>200){
-				System.out.println("´ò7.5ÕÛ");
+				System.out.println("æ‰“7.5æŠ˜");
 			}
 			if(money<100){
-				System.out.println("²»´òÕÛ");
+				System.out.println("ä¸æ‰“æŠ˜");
 			}
 		}else{
 			if(money>100){
-				System.out.println("´ò9ÕÛ");
+				System.out.println("æ‰“9æŠ˜");
 			}else{
-				System.out.println("²»´òÕÛ");
+				System.out.println("ä¸æ‰“æŠ˜");
 			}
 		}
 		
