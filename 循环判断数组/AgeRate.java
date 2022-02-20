@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class AgeRate{
 	public static void main(String[] args){
-		//¶¨ÒåScanner¶ÔÏó
+		//å®šä¹‰Scannerå¯¹è±¡
 		Scanner sc=new Scanner(System.in);
-		//´¢´æ30ËêÉÏÏÂµÄÈËÊı
+		//å‚¨å­˜30å²ä¸Šä¸‹çš„äººæ•°
 		int ageUp=0;
 		int ageDown=0;
 		
 		for(int i=0;i<10;i++){
-			System.out.println("ÇëÊäÈëµÚ"+i+"Î»¹Ë¿ÍµÄÄêÁä");
+			System.out.println("è¯·è¾“å…¥ç¬¬"+i+"ä½é¡¾å®¢çš„å¹´é¾„");
 			int age=(int) sc.nextInt();
 			if(age>30){
 				ageUp++;
@@ -16,8 +16,8 @@ public class AgeRate{
 				ageDown++;
 			}
 		}
-		System.out.println("³¬¹ı30ËêµÄÈËÊı±ÈÀıÊÇ"+(ageUp/10.0*100)+"%");
-		System.out.println("³¬¹ı30ËêµÄÈËÊı±ÈÀıÊÇ"+(ageDown/10.0*100)+"%");
+		System.out.println("è¶…è¿‡30å²çš„äººæ•°æ¯”ä¾‹æ˜¯"+(ageUp/10.0*100)+"%");
+		System.out.println("è¶…è¿‡30å²çš„äººæ•°æ¯”ä¾‹æ˜¯"+(ageDown/10.0*100)+"%");
 
 	}
 }
